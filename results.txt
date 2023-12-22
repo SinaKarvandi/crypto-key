@@ -1,0 +1,215 @@
+['0x1003', '0x1006', '0x1009', '0x100a', '0x100b', '0x100d', '0x100f', '0x1013', '0x1016', '0x101a', '0x101d', '0x1021', '0x1024', '0x1028', '0x102b', '0x102f', '0x1032', '0x1036', '0x1039', '0x103d', '0x1040', '0x1044']
+0x400000
+0x401920:	mov	cl, byte ptr [ebp + eax - 0x204]
+0x40100b:	mov	esi, ecx
+********************
+0x40192a:	mov	byte ptr [ebp + eax - 0x405], cl
+0x401006:	movzx	eax, byte ptr [edx]
+********************
+0x401920:	mov	cl, byte ptr [ebp + eax - 0x204]
+0x40100b:	mov	esi, ecx
+********************
+0x40192a:	mov	byte ptr [ebp + eax - 0x405], cl
+0x40100f:	movzx	eax, byte ptr [edx + 1]
+********************
+0x40165b:	mov	esi, edx
+0x40100a:	push	esi
+********************
+0x401699:	mov	edx, edi
+0x401006:	movzx	eax, byte ptr [edx]
+********************
+0x40169f:	lea	ecx, [esp + 0x38]
+0x40100b:	mov	esi, ecx
+********************
+0x401000:	push	ebp
+0x401003:	sub	esp, 8
+********************
+0x401003:	sub	esp, 8
+0x401009:	push	ebx
+********************
+0x401006:	movzx	eax, byte ptr [edx]
+0x40100f:	movzx	eax, byte ptr [edx + 1]
+********************
+0x401006:	movzx	eax, byte ptr [edx]
+0x401016:	movzx	eax, byte ptr [edx + 2]
+********************
+0x401006:	movzx	eax, byte ptr [edx]
+0x40101d:	movzx	eax, byte ptr [edx + 3]
+********************
+0x401006:	movzx	eax, byte ptr [edx]
+0x401024:	movzx	eax, byte ptr [edx + 4]
+********************
+0x401006:	movzx	eax, byte ptr [edx]
+0x40102b:	movzx	eax, byte ptr [edx + 5]
+********************
+0x401006:	movzx	eax, byte ptr [edx]
+0x401032:	movzx	eax, byte ptr [edx + 6]
+********************
+0x401006:	movzx	eax, byte ptr [edx]
+0x401039:	movzx	eax, byte ptr [edx + 7]
+********************
+0x401006:	movzx	eax, byte ptr [edx]
+0x401040:	movzx	eax, byte ptr [edx + 8]
+********************
+0x401006:	movzx	eax, byte ptr [edx]
+0x401047:	movzx	eax, byte ptr [edx + 9]
+********************
+0x401006:	movzx	eax, byte ptr [edx]
+0x40104e:	movzx	eax, byte ptr [edx + 0xa]
+********************
+0x401006:	movzx	eax, byte ptr [edx]
+0x401055:	movzx	eax, byte ptr [edx + 0xb]
+********************
+0x401006:	movzx	eax, byte ptr [edx]
+0x40105c:	movzx	eax, byte ptr [edx + 0xc]
+********************
+0x401006:	movzx	eax, byte ptr [edx]
+0x401066:	mov	bl, byte ptr [edx + 0xd]
+********************
+0x401006:	movzx	eax, byte ptr [edx]
+0x40106b:	mov	cl, byte ptr [edx + 0xe]
+********************
+0x401006:	movzx	eax, byte ptr [edx]
+0x401071:	mov	cl, byte ptr [edx + 0xf]
+********************
+0x401006:	movzx	eax, byte ptr [edx]
+0x40100d:	mov	byte ptr [esi], al
+********************
+0x401009:	push	ebx
+0x40100a:	push	esi
+********************
+0x401009:	push	ebx
+0x40110a:	pop	ebx
+********************
+0x401009:	push	ebx
+0x401096:	movzx	ecx, bl
+********************
+0x401009:	push	ebx
+0x4010b2:	movzx	ecx, bh
+********************
+0x401009:	push	ebx
+0x4010d6:	xor	cl, bh
+********************
+0x401009:	push	ebx
+0x401083:	mov	dl, bl
+********************
+0x40100a:	push	esi
+0x401109:	pop	esi
+********************
+0x40100a:	push	esi
+0x401109:	pop	esi
+********************
+0x40100b:	mov	esi, ecx
+0x40100d:	mov	byte ptr [esi], al
+********************
+0x40100b:	mov	esi, ecx
+0x401013:	mov	byte ptr [esi + 1], al
+********************
+0x40100b:	mov	esi, ecx
+0x40101a:	mov	byte ptr [esi + 2], al
+********************
+0x40100b:	mov	esi, ecx
+0x401021:	mov	byte ptr [esi + 3], al
+********************
+0x40100b:	mov	esi, ecx
+0x401028:	mov	byte ptr [esi + 4], al
+********************
+0x40100b:	mov	esi, ecx
+0x40102f:	mov	byte ptr [esi + 5], al
+********************
+0x40100b:	mov	esi, ecx
+0x401036:	mov	byte ptr [esi + 6], al
+********************
+0x40100b:	mov	esi, ecx
+0x40103d:	mov	byte ptr [esi + 7], al
+********************
+0x40100b:	mov	esi, ecx
+0x401044:	mov	byte ptr [esi + 8], al
+********************
+0x40100b:	mov	esi, ecx
+0x40104b:	mov	byte ptr [esi + 9], al
+********************
+0x40100b:	mov	esi, ecx
+0x401052:	mov	byte ptr [esi + 0xa], al
+********************
+0x40100b:	mov	esi, ecx
+0x401059:	mov	byte ptr [esi + 0xb], al
+********************
+0x40100b:	mov	esi, ecx
+0x401060:	mov	byte ptr [esi + 0xc], al
+********************
+0x40100b:	mov	esi, ecx
+0x401063:	lea	eax, [esi + 0xd]
+********************
+0x40100b:	mov	esi, ecx
+0x40106e:	mov	byte ptr [esi + 0xe], cl
+********************
+0x40100b:	mov	esi, ecx
+0x401074:	mov	byte ptr [esi + 0xf], cl
+********************
+0x40100d:	mov	byte ptr [esi], al
+0x4010d3:	mov	cl, byte ptr [eax - 0xd]
+********************
+0x40100d:	mov	byte ptr [esi], al
+0x4010d3:	mov	cl, byte ptr [eax - 0xd]
+********************
+0x40100d:	mov	byte ptr [esi], al
+0x401335:	mov	al, byte ptr [edi + ecx]
+********************
+0x40100f:	movzx	eax, byte ptr [edx + 1]
+0x401013:	mov	byte ptr [esi + 1], al
+********************
+0x401013:	mov	byte ptr [esi + 1], al
+0x4010db:	mov	bl, byte ptr [eax - 0xc]
+********************
+0x401013:	mov	byte ptr [esi + 1], al
+0x4010db:	mov	bl, byte ptr [eax - 0xc]
+********************
+0x401013:	mov	byte ptr [esi + 1], al
+0x401335:	mov	al, byte ptr [edi + ecx]
+********************
+0x401013:	mov	byte ptr [esi + 1], al
+0x401335:	mov	al, byte ptr [edi + ecx]
+********************
+0x401016:	movzx	eax, byte ptr [edx + 2]
+0x40101a:	mov	byte ptr [esi + 2], al
+********************
+0x40101a:	mov	byte ptr [esi + 2], al
+0x4010e5:	mov	cl, byte ptr [eax - 0xb]
+********************
+0x40101a:	mov	byte ptr [esi + 2], al
+0x4010e5:	mov	cl, byte ptr [eax - 0xb]
+********************
+0x40101d:	movzx	eax, byte ptr [edx + 3]
+0x401021:	mov	byte ptr [esi + 3], al
+********************
+0x401021:	mov	byte ptr [esi + 3], al
+0x4010ee:	mov	cl, byte ptr [eax - 0xa]
+********************
+0x401021:	mov	byte ptr [esi + 3], al
+0x4010ee:	mov	cl, byte ptr [eax - 0xa]
+********************
+0x401024:	movzx	eax, byte ptr [edx + 4]
+0x401028:	mov	byte ptr [esi + 4], al
+********************
+0x40102b:	movzx	eax, byte ptr [edx + 5]
+0x40102f:	mov	byte ptr [esi + 5], al
+********************
+0x401032:	movzx	eax, byte ptr [edx + 6]
+0x401036:	mov	byte ptr [esi + 6], al
+********************
+0x401039:	movzx	eax, byte ptr [edx + 7]
+0x40103d:	mov	byte ptr [esi + 7], al
+********************
+0x401040:	movzx	eax, byte ptr [edx + 8]
+0x401044:	mov	byte ptr [esi + 8], al
+********************
+0x401752:	inc	esi
+0x40100a:	push	esi
+********************
+0x40175e:	mov	edx, dword ptr [esp + 0x34]
+0x401006:	movzx	eax, byte ptr [edx]
+********************
+0x401762:	lea	ecx, [esp + 0x38]
+0x40100b:	mov	esi, ecx
+********************

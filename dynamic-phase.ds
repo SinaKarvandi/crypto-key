@@ -1,0 +1,27 @@
+event c all
+.start path "C:\Users\sina\Desktop\SimpleAesCrypt.exe"
+g
+g
+print $pid
+? .current_thread_id = $tid;
+!sysret script {
+	if ($tid == .current_thread_id) {
+		.key_len =strlen(dq(@rsp+30));
+		.key_start_addr = dq(@rsp+30);
+		.key_end_addr = dq(@rsp+30) + .key_len;
+		pause();
+	}
+}
+g
+g
+event d all
+
+output create MyOutputName1 file C:\Users\sina\Desktop\VUSec\accesses.txt
+output open MyOutputName1
+!monitor rw .key_start_addr .key_end_addr output {MyOutputName1} script {
+
+	// printf("Access to: %x\n", $context);
+	printf("%x\n", @rip & 0xffff);
+}
+g
+output close MyOutputName1
