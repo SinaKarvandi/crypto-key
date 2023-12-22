@@ -1,3 +1,9 @@
 [submodule "tiny-AES-c"]
 	path = tiny-AES-c
 	url = https://github.com/kokke/tiny-AES-c.git
+[submodule "HyperDbg"]
+	path = HyperDbg
+	url = https://github.com/HyperDbg/HyperDbg.git
+[submodule "angr"]
+	path = angr
+	url = https://github.com/angr/angr.git
